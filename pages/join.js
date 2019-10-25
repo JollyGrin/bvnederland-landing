@@ -16,13 +16,7 @@ export default class join extends Component {
         <JoinBody />
         <Footer />
 
-        <style jsx>{`
-          .bvPage {
-            background: url('static/media/nl.png');
-            background-size: cover;
-            background-position: right top;
-          }
-        `}</style>
+        <style jsx>{``}</style>
       </div>
     );
   }

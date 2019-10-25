@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Link from 'next/link';
 
 export default class JoinBody extends Component {
   render() {
@@ -8,17 +9,17 @@ export default class JoinBody extends Component {
           <section className="section">
             <div className="columns has-text-centered">
               <div className="column is-6 is-offset-3">
-                <h3 className="title emp">Join the Movement</h3>
+                <h3 className="title emp">Kom bij de beweging</h3>
                 <h4 className="subtitle">
-                  This is more than a political party, it's a movement.
+                  Dit is meer dan een politieke partij, het is een visie.
                   <br />
-                  We're going to do this a bit differently.
+                  Wij gaan dit een beetje anders doen.
                 </h4>
               </div>
             </div>
             <br /> <br />
             <div className="columns">
-              <div className="column is-3 is-offset-2">
+              {/* <div className="column is-3 is-offset-2">
                 <h2 className="title">The Next Steps</h2>
                 <h3 className="subtitle">
                   Everyone has a role, help mobilize your city.
@@ -30,32 +31,45 @@ export default class JoinBody extends Component {
                   <li>Get 100 videos on instagram with #WijZijnBV</li>
                   <li>More challenges coming...</li>
                 </ol>
-              </div>
-              <div className="column is-6 card">
+              </div> */}
+              <div className="column is-8 is-offset-2 card">
                 <div className="card-content">
-                  <h2 className="title">Let's get started</h2>
+                  <h2 className="title">Laten we beginnen.</h2>
                   <h3 className="subtitle">
-                    This is a do-ocracy. No need to ask permission. We lay out
-                    the goals and you organize however you want.
+                    Onze beweging is een doe-mee-cratie. Vraag geen toestemming.
+                    Jij bent de beweging. We werken samen aan dezelfde visie.
                   </h3>
                   <p>
-                    BV Nederland is organized as a movement of individuals
-                    advocating for €1000/mo in their city. We're seeking
-                    like-minded individuals across the Netherlands to join our
-                    mission to secure a seat in the chamber by 2021.{' '}
+                    BV Nederland is een beweging van mensen die voor een nieuwe
+                    politiek in Nederland pleiten, met meer democratie, meer op
+                    de mens gericht en met een vrijheidsdividend van 1.000 euro
+                    per maand. We're seeking We zijn op zoek naar mensen die
+                    dezelfde visie voor Nederland hebben en mee willen doen aan
+                    deze nationale beweging. Om samen toe te werken naar een
+                    overwinning tijdend de Tweede Kamerverkieingen in 2021. Stap
+                    voor stap.{' '}
                   </p>
                 </div>
                 <div className="card-footer-item">
                   <div className="field has-addons">
-                    <div className="control is-medium">
+                    {/* <div className="control is-medium">
                       <input
                         className="input script"
                         type="text"
-                        placeholder="Sign your Name"
+                        placeholder="Meld je aan"
                       />
-                    </div>
+                    </div> */}
                     <div className="control">
-                      <a className="button is-info">Join the Movement</a>
+                      {/* <Link href="http://wijzijnbv.substack.com/welcome">
+                        <a className="button is-info is-large">Doe mee</a>
+                      </Link> */}
+                      <iframe
+                        width="480"
+                        height="400"
+                        src="https://wijzijnbv.substack.com/embed"
+                        frameBorder="0"
+                        scrolling="no"
+                      ></iframe>
                     </div>
                   </div>
                 </div>

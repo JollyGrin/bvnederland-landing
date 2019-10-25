@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Link from 'next/link';
 
 export default class TheNav extends Component {
   constructor(props) {
@@ -22,12 +23,15 @@ export default class TheNav extends Component {
           aria-label="main navigation"
         >
           <div className="navbar-brand">
-            {/* <a className="navbar-item" href="https://bulma.io">
-              <img src="static/media/tulip-w.svg" width="100" />
-              <span className="bv-logo-text">BV Nederland</span>
-            </a> */}
+            <a className="navbar-item">
+              <img src="/static/media/tulip-w.svg" width="100" />
 
-            <a
+              <Link href="/visie">
+                <a className="button">Terug naar Visie</a>
+              </Link>
+            </a>
+
+            {/* <a
               role="button"
               className="navbar-burger burger"
               aria-label="menu"
@@ -38,10 +42,10 @@ export default class TheNav extends Component {
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
-            </a>
+            </a> */}
           </div>
 
-          <div
+          {/* <div
             id="navbarBasicExample"
             className={`navbar-menu ${
               this.state.navDisplay ? 'is-active' : null
@@ -58,7 +62,7 @@ export default class TheNav extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </nav>
         <style jsx>{`
           .navbar {

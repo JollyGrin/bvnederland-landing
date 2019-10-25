@@ -6980,3 +6980,9 @@ body {
 
 .script {
   font-family: 'Homemade Apple', cursive; }
+
+.bvPage {
+  background: url("/static/media/nl-o.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right top; }

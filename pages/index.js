@@ -15,13 +15,7 @@ export default class index extends Component {
         <HomeBody />
         <Footer />
 
-        <style jsx>{`
-          .bvPage {
-            background: url('static/media/nl.png');
-            background-size: cover;
-            background-position: right top;
-          }
-        `}</style>
+        <style jsx>{``}</style>
       </div>
     );
   }

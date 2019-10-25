@@ -5,23 +5,17 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import PlatformBody from '../components/PlatformBody';
 
-export default class platform extends Component {
+export default class visie extends Component {
   render() {
     return (
       <div className="bvPage">
         <TheHead />
         {/* <TheNav /> */}
-        <Hero heroTab={'platform'} />
+        <Hero heroTab={'visie'} />
         <PlatformBody />
         <Footer />
 
-        <style jsx>{`
-          .bvPage {
-            background: url('static/media/nl.png');
-            background-size: cover;
-            background-position: right top;
-          }
-        `}</style>
+        <style jsx>{``}</style>
       </div>
     );
   }

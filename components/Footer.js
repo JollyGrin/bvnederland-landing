@@ -6,7 +6,7 @@ export default class Footer extends Component {
       <Fragment>
         <footer className="footer">
           <div className="container has-text-centered">
-            <img src="static/media/tulip-o.svg" />
+            <img src="/static/media/tulip-o.svg" />
           </div>
           <div className="columns">
             <div className="column is-6 is-offset-3">
@@ -29,8 +29,8 @@ export default class Footer extends Component {
                 </div>
                 <div className="level-item has-text-centered">
                   <div>
-                    <a href="https://bvnederland.slack.com">
-                      <i className="fab fa-slack"></i>
+                    <a href="https://gitter.im/wijzijnbv/community">
+                      <i className="fab fa-gitter"></i>
                     </a>
                     <p className="help">Chatroom</p>
                   </div>

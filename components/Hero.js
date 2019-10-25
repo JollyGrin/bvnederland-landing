@@ -14,10 +14,12 @@ export default class Hero extends Component {
         <div className="hero is-medium">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <img src="static/media/logo.svg" />
+              <img src="/static/media/logo.svg" />
               <br /> <br />
-              <h2 className="emp bvPurp ashare">Activist shareholders</h2>
-              <a className="button is-large">Join the Movement</a>
+              <h2 className="emp bvPurp ashare">Beweeg jij mee voorwaarts?</h2>
+              <Link href="/join">
+                <a className="button is-large">Doe mee</a>
+              </Link>
             </div>
           </div>
           <div className="hero-foot">
@@ -31,12 +33,12 @@ export default class Hero extends Component {
                   </li>
                   <li className={tab === 'join' ? 'is-active' : null}>
                     <Link href="/join" scroll>
-                      <a>Join the Movement</a>
+                      <a>Word ook een aandeelhouder</a>
                     </Link>
                   </li>
-                  <li className={tab === 'platform' ? 'is-active' : null}>
-                    <Link href="/platform">
-                      <a>Our Platform</a>
+                  <li className={tab === 'visie' ? 'is-active' : null}>
+                    <Link href="/visie">
+                      <a>Onze visie</a>
                     </Link>
                   </li>
                 </ul>
