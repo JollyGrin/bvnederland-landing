@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Link from 'next/link';
 
 export default class DividendBody extends Component {
   render() {
@@ -36,7 +37,7 @@ export default class DividendBody extends Component {
                     Waarom willen wij het vrijheidsdividend invoeren?&nbsp;
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>Toen Koen onderzoek deed voor zijn boek (</span>
                   <em>
@@ -92,73 +93,94 @@ export default class DividendBody extends Component {
                   vrijheidsdividend. Kinderen hebben is een teken van optimisme
                   en moeten we stimuleren!
                 </p>
-                <p>
-                  Ten eerste besparen we miljarden op de versimpeling van ons
-                  sociale systeem. Het vrijheidsdividend is optioneel, wat
-                  betekent dat mensen kunnen kiezen of ze hun uitkeringen,
-                  toeslagen etc. willen behouden, of dat ze onvoorwaardelijk
-                  elke maand het dividend uitgekeerd willen krijgen. Ervan
-                  uitgaande dat de meerderheid van de mensen voor het
-                  vrijheidsdividend kiest zullen we miljarden besparen. Ook
-                  geven we oudere deze optie, met als gevolg een besparing op de
-                  AOW, en een koopkrachtverbetering voor ouderen die het minder
-                  hebben. Daarnaast zullen we de niet geslaagde participatiewet
-                  afschaffen. Tenslotte zal ook de studiefinanciering wegvallen
-                  omdat studenten met het vrijheidsdividend er veel meer vooruit
-                  op gaan. Bij elkaar kom je dan op een bedrag van 25 miljard.
-                </p>
-                <p>
-                  Ten tweede zullen we de ook de bureaucratie van alle
-                  heffingskortingen, hypotheekrente-aftrek, met een opbrengst
-                  van 70 miljard.&nbsp;
-                </p>
-                <p>
-                  Ten derde voeren we een digitale belasting in op
-                  tech-bedrijven omzet in Nederland. Deze hebben jarenlang te
-                  weinig betaald, terwijl ze ondertussen wel veel van onze banen
-                  automatiseren en onze persoonlijke gegevens gebruiken als
-                  winstproducten. Onze belastingdienst zal het daarnaast veel
-                  minder druk hebben door de versimpeling van het
-                  belastingstelsel, dus genoeg tijd om deze belasting eindelijk
-                  eens door te voeren. Door hiernaast ook achter
-                  belastingontwijking aan te gaan (we hebben nog 47 miljard
-                  tegoed) willen we met deze maatregelen minstens 20 miljard
-                  ophalen. Tijd voor een data-dividend!
-                </p>
-                <p>
-                  Ten vierde zal het geld niet verdwijnen. Het geld zal in de
-                  economie rond blijven circuleren met als gevolg een groei van
-                  de economie en onze belastinginkomsten. Mensen geven namelijk
-                  niet meer uit, maar ze zullen ook bedrijfjes gaan starten en
-                  productiever worden op het werk door hun betere gezondheid.
-                  Hierdoor krijgen we een deel van het ge&iuml;nvesteerde geld
-                  terug.&nbsp;
-                </p>
-                <p>
-                  Verder zullen we ons huidige belastingstelsel aanpassen aan de
-                  tijden waarin we leven, namelijk tijden waarin arbeid veel te
-                  veel belast wordt ten opzichte van vermogen. Werken moet weer
-                  gaan lonen, dus zullen we de belastingschijven versimpelen
-                  naar maximaal twee vlaktaksen die lager zijn dan de huidige.
-                  Daarnaast zullen we vermogens wel meer gaan belasten, maar in
-                  ruil hiervoor belastingvoordelen geven voor vermogen dat
-                  ge&iuml;nvesteerd wordt in Nederlandse projecten. Met deze
-                  versimpeling die nader bekendgemaakt wordt willen we in het
-                  begin minstens 5 miljard ophalen.&nbsp;
-                </p>
-                <p>
-                  Tenslotte zullen we met een belasting op financi&euml;le
-                  transacties en een hogere CO-2 belasting de rest van het gat
-                  opvullen. Hierdoor zorgen we ervoor dat er minder speculatief
-                  gehandeld wordt op de beurzen en zorgen we er tegelijkertijd
-                  voor dat mensen de baten van duurzaam klimaatbeleid in hun
-                  portemonnee terugzien.
-                </p>
+                <ol>
+                  <li>
+                    Ten eerste besparen we miljarden op de versimpeling van ons
+                    sociale systeem. Het vrijheidsdividend is optioneel, wat
+                    betekent dat mensen kunnen kiezen of ze hun uitkeringen,
+                    toeslagen etc. willen behouden, of dat ze onvoorwaardelijk
+                    elke maand het dividend uitgekeerd willen krijgen. Ervan
+                    uitgaande dat de meerderheid van de mensen voor het
+                    vrijheidsdividend kiest zullen we miljarden besparen. Ook
+                    geven we oudere deze optie, met als gevolg een besparing op
+                    de AOW, en een koopkrachtverbetering voor ouderen die het
+                    minder hebben. Daarnaast zullen we de niet geslaagde
+                    participatiewet afschaffen. Tenslotte zal ook de
+                    studiefinanciering wegvallen omdat studenten met het
+                    vrijheidsdividend er veel meer vooruit op gaan. Bij elkaar
+                    kom je dan op een bedrag van 25 miljard.
+                  </li>
+                  <li>
+                    We zullen dook de <strong>bureaucratie</strong> van alle
+                    heffingskortingen, hypotheekrente-aftrek, met een opbrengst
+                    van 60 miljard in plaats van 70 , zodat er een goede
+                    overgangsperiode is.&nbsp;
+                  </li>
+                  <li>
+                    We besparen door de invoering van het vrijheidsdividend ook
+                    heel veel geld. Bijvoorbeeld op <strong>zorg</strong> (kost
+                    nu 100 miljard), <strong>criminaliteit</strong> (kost nu 13
+                    miljard en veiligheid in onze wijken met als gevolg
+                    bijvoorbeeld minder vertrouwen tussen mensen. Ook wordt veel
+                    criminaliteit niet meer gemeld), kosten{' '}
+                    <strong>dakloosheid</strong> (recent hebben Utrecht,
+                    Amsterdam, Rotterdam en Den Haag de noodklok geluid om de
+                    stijgende dakloosheid in Nederland en haar kosten. Niemand
+                    zou dakloos moeten zijn. Zie ook ons stuk over daklozen).
+                    Hier besparen we al snel minstens 20 miljard mee omdat onze
+                    mensen gezonder en sterker worden, meer perspectief zullen
+                    hebben en dus ook niet op de straat hoeven te leven.&nbsp;
+                  </li>
+                  <li>
+                    We voeren een belasting in op tech-bedrijven hun omzet in
+                    Nederland. Deze hebben jarenlang te weinig betaald, terwijl
+                    ze ondertussen wel veel van onze banen automatiseren en onze
+                    persoonlijke gegevens gebruiken als winstproducten. Onze
+                    belastingdienst zal het daarnaast veel minder druk hebben
+                    door de versimpeling van het belastingstelsel, dus genoeg
+                    tijd om deze belasting eindelijk eens door te voeren. Door
+                    hiernaast ook achter belastingontwijking aan te gaan (we
+                    hebben nog 47 miljard tegoed) willen we met deze maatregelen
+                    minstens 20 miljard ophalen. Tijd voor een data-dividend!
+                  </li>
+                  <li>
+                    Het geld zal verder niet verdwijnen. Het geld zal in de
+                    economie rond blijven circuleren met als gevolg een groei
+                    van de economie en onze belastinginkomsten. Mensen geven
+                    namelijk niet meer uit, maar ze zullen ook bedrijfjes gaan
+                    starten en productiever worden op het werk door hun betere
+                    gezondheid. Hierdoor krijgen we een deel van het
+                    ge&iuml;nvesteerde geld terug.&nbsp;
+                  </li>
+                  <li>
+                    Verder zullen we ons huidige belastingstelsel aanpassen aan
+                    de tijden waarin we leven, namelijk tijden waarin arbeid
+                    veel te veel belast wordt ten opzichte van vermogen. Werken
+                    moet weer gaan lonen, dus zullen we de belastingschijven
+                    versimpelen naar maximaal twee vlaktaksen die lager zijn dan
+                    de huidige. Daarnaast zullen we vermogens wel meer gaan
+                    belasten, maar in ruil hiervoor belastingvoordelen geven
+                    voor vermogen dat ge&iuml;nvesteerd wordt in Nederlandse
+                    projecten. Met deze versimpeling die nader bekendgemaakt
+                    wordt willen we in het begin minstens 5 miljard
+                    ophalen.&nbsp;
+                  </li>
+                  <li>
+                    Tenslotte zullen we met een belasting op financi&euml;le
+                    transacties en een hogere CO-2 belasting de rest van het gat
+                    opvullen. Hierdoor zorgen we ervoor dat er minder
+                    speculatief gehandeld wordt op de beurzen en zorgen we er
+                    tegelijkertijd voor dat mensen de baten van duurzaam
+                    klimaatbeleid in hun portemonnee terugzien.
+                  </li>
+                </ol>
+
+                <p>&nbsp;</p>
 
                 <p>
                   <strong>Zullen mensen niet stoppen met werken?&nbsp;</strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     Als we deze vraag beantwoorden moeten we eerst kijken hoe
@@ -239,7 +261,7 @@ export default class DividendBody extends Component {
                     Wat zijn de voordelen van het vrijheidsdividend?
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     Het vrijheidsdividend heeft tal van voordelen en momenteel
@@ -254,7 +276,7 @@ export default class DividendBody extends Component {
                   <strong>Stimuleert mensen meer te gaan werken</strong>
                   <span>.&nbsp;</span>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     Het vrijheidsdividend stimuleert veel mensen juist om te
@@ -294,7 +316,7 @@ export default class DividendBody extends Component {
                     sterke mensen, maar ook een meer productieve economie.&nbsp;
                   </span>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <strong>Verminder bureaucratie: </strong>
                   <span>
@@ -306,7 +328,7 @@ export default class DividendBody extends Component {
                     te wantrouwen.&nbsp;
                   </span>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <strong>Erkent onbetaald werk. </strong>
                   <span>
@@ -323,7 +345,7 @@ export default class DividendBody extends Component {
                     de familie.&nbsp;
                   </span>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <strong>Stimuleert ondernemerschap</strong>
                   <span>
@@ -352,7 +374,7 @@ export default class DividendBody extends Component {
                     aanbieden.&nbsp;
                   </span>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <strong>Vergroot onze economie</strong>
                   <span>
@@ -369,7 +391,7 @@ export default class DividendBody extends Component {
                     Vergroot mentale capaciteit van nederlanders.&nbsp;
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     Het is aangetoond dat mensen die in armoede door het feit
@@ -384,15 +406,11 @@ export default class DividendBody extends Component {
                     slimmere mensen!
                   </span>
                 </p>
-                <p>
-                  <br />
-                  <br />
-                  <br />
-                </p>
+                <p>&nbsp;</p>
                 <p>
                   <strong>Ondersteunt het gezinsleven.&nbsp;</strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     Schulden, armoede, stress, en laat staan geen optimisme voor
@@ -421,16 +439,13 @@ export default class DividendBody extends Component {
                     gezinnen te stimuleren.&nbsp;
                   </span>
                 </p>
-                <p>
-                  <br />
-                  <br />
-                </p>
+                <p>&nbsp;</p>
                 <p>
                   <strong>
                     Valt het hele oude sociale stelsel hierdoor weg?&nbsp;
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     We geven mensen de keuze of ze hun uitkeringen, toeslagen
@@ -461,7 +476,7 @@ export default class DividendBody extends Component {
                     Het basisinkomen zal tot een nieuwe migratiestroom leiden
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     Dit is een belangrijk tegenargument om te beantwoorden,
@@ -495,19 +510,14 @@ export default class DividendBody extends Component {
                   <br />
                   <br />
                 </p>
-                <p>
-                  <strong>
-                    Het basisinkomen pretendeert dat armen alleen arm zijn door
-                    een gebrek aan geld
-                  </strong>
-                </p>
+
                 <p>&nbsp;</p>
                 <p>
                   <strong>
                     Het is dom om het basisinkomen ook aan rijke mensen te geven
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     De zin &lsquo;De welvaart die we tot nu toe met z&rsquo;n
@@ -571,7 +581,7 @@ export default class DividendBody extends Component {
                     we dat nou echt?
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     De vergelijking tussen het vrijheidsdividend en het
@@ -614,11 +624,13 @@ export default class DividendBody extends Component {
                   </span>
                 </p>
                 <p>
-                  <span>
-                    Zoals Amerikaanse presidentskandidaat Andrew Yang zegt:
-                  </span>
+                  <strong>
+                    <span>
+                      Zoals Amerikaanse presidentskandidaat Andrew Yang zegt:
+                    </span>
+                  </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <em>
                     <span>
@@ -662,7 +674,7 @@ export default class DividendBody extends Component {
                     niet.&nbsp;
                   </strong>
                 </p>
-                <p>&nbsp;</p>
+
                 <p>
                   <span>
                     Het is logisch dat we de &lsquo;robots&rsquo; niet zien.
@@ -714,19 +726,13 @@ export default class DividendBody extends Component {
                     wij in ons manifest hebben staan. De tijd is nu!
                   </span>
                 </p>
-                <p>
-                  <br />
-                  <br />
-                </p>
-                <p>
-                  <strong>Dit is goed! Hoe kan ik helpen?&nbsp;</strong>
-                </p>
-                <p>
-                  <br />
-                  <br />
-                </p>
               </div>
             </div>
+          </div>
+          <div className="container has-text-centered">
+            <Link href="/visie">
+              <a className="button">Terug naar Visie</a>
+            </Link>
           </div>
         </section>
       </Fragment>

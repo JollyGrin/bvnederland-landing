@@ -15,13 +15,6 @@ export default class dividend extends Component {
     Wat is het vrijheidsdividend?
     `;
 
-    const content = `
-    lorem ipsum lorem ipsum lorem ipsumlorem ipsum
-    lorem ipsum
-    lorem ipsum
-    lorem ipsum
-    lorem ipsum
-    `;
     return (
       <div className="bvPage">
         <TheHead />

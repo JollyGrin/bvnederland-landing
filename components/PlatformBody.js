@@ -28,7 +28,9 @@ export default class PlatformBody extends Component {
                     <div className="box">
                       <Link href="/visie/dividend">
                         <a>
-                          <h1 className="title">Vrijheidsdividend</h1>
+                          <h1 className="title">
+                            Vrijheids <br /> dividend
+                          </h1>
                         </a>
                       </Link>
                     </div>
@@ -65,14 +67,29 @@ export default class PlatformBody extends Component {
                 <div className="columns has-text-centered">
                   <div className="column">
                     <ul className="policies">
-                      <li>
+                      {/* <li>
                         <Link href="/visie/immigratie">
                           <a>Immigratie</a>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/visie/onderwijs">
                           <a>Onderwijs</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/huis">
+                          <a>Huisvesting</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/mindset">
+                          <a>Mindset van overvloed</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/daklozen">
+                          <a>Daklozen</a>
                         </Link>
                       </li>
                     </ul>
@@ -81,7 +98,22 @@ export default class PlatformBody extends Component {
                     <ul className="policies">
                       <li>
                         <Link href="/visie/cohesie">
-                          <a>Sociale Cohesie</a>
+                          <a>Sociaal Vertrouwen</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/data">
+                          <a>Data als een recht</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/bbp">
+                          <a>Menselijk BBP</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/innovatie">
+                          <a>21-eeuwse economie</a>
                         </Link>
                       </li>
                     </ul>
@@ -91,6 +123,21 @@ export default class PlatformBody extends Component {
                       <li>
                         <Link href="/visie/zorg">
                           <a>Zorg</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/klimaat">
+                          <a>Klimaat</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/peoplepolitek">
+                          <a>MensenPolitek</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/visie/oneindigspel">
+                          <a>Politiek als oneindig spel</a>
                         </Link>
                       </li>
                     </ul>

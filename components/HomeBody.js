@@ -10,10 +10,11 @@ export default class HomeBody extends Component {
             <div className="columns has-text-centered">
               <div className="column is-6 is-offset-3">
                 <h3 className="title emp">
-                  Wij, de aandeelhouders van Nederland, claimen een dividend.
+                  Wij, de aandeelhouders van Nederland,
+                  <br /> claimen een dividend.
                 </h3>
                 <h4 className="subtitle">
-                  BV Nederland is een beweging die elke burger een
+                  BV Nederland is een beweging die elke burger een <br />
                   vrijheidsdividend van 1.000 euro per maand wilt geven.
                 </h4>
               </div>
@@ -49,9 +50,25 @@ export default class HomeBody extends Component {
                     </p>
                   </div>
                 </div>
+                <br />
                 <div className="container has-text-centered">
+                  <Link href="/manifest">
+                    <a className="button is-primary is-large manifestButton">
+                      Ontdek het Manifest
+                    </a>
+                  </Link>
+                  <Link href="/join">
+                    <a className="button is-primary is-large manifestButton">
+                      Doe Mee
+                    </a>
+                  </Link>
                   <Link href="/visie">
-                    <a className="button is-large">Ontdek onze visie</a>
+                    <a className="button is-primary is-large manifestButton">
+                      Ontdek onze Visie
+                    </a>
+                  </Link>
+                  <Link href="/about">
+                    <a className="button is-primary is-large">Over Ons</a>
                   </Link>
                   {/* <p>
                     Dit is het begin van een nieuwe politiek, gericht op oplossingen voor de 21-eeuwse economie en samenleving. 
@@ -65,6 +82,11 @@ export default class HomeBody extends Component {
         <style jsx>{`
           .home-body {
             background: white;
+          }
+
+          .button {
+            margin-right: 20px;
+            margin-top: 20px;
           }
 
           .fas,

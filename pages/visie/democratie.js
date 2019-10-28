@@ -125,13 +125,6 @@ export default class democratie extends Component {
               context van de Tweede Kamer.&nbsp;
             </li>
           </ul>
-          <p>
-            <br />
-            <br />
-          </p>
-          <p>
-            <em>Book Yascha mounk page 59.62 63. 81, 85, 87,88,91.90. 94</em>
-          </p>
         </PolicyTemplate>
         <Footer />
 

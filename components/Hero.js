@@ -14,11 +14,15 @@ export default class Hero extends Component {
         <div className="hero is-medium">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <img src="/static/media/logo.svg" />
+              <Link href="/manifest">
+                <a>
+                  <img src="/static/media/logo.svg" />
+                </a>
+              </Link>
               <br /> <br />
               <h2 className="emp bvPurp ashare">Beweeg jij mee voorwaarts?</h2>
               <Link href="/join">
-                <a className="button is-large">Doe mee</a>
+                <a className="button is-primary is-large">Doe mee</a>
               </Link>
             </div>
           </div>

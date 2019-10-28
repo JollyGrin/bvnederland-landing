@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Link from 'next/link';
 
 export default class Footer extends Component {
   render() {
@@ -37,7 +38,7 @@ export default class Footer extends Component {
                 </div>
                 <div className="level-item has-text-centered">
                   <div>
-                    <a href="mailto:bvnl@protonmail.com">
+                    <a href="mailto:bvnederland@outlook.com">
                       <i className="fas fa-paper-plane"></i>
                     </a>
                     <p className="help">Contact Us</p>
@@ -47,7 +48,11 @@ export default class Footer extends Component {
             </div>
           </div>
           <div className="container has-text-centered">
-            <p>BV Nederland ©2019</p>
+            <Link href="/manifest">
+              <a>BV Nederland ©2019</a>
+            </Link>
+            <br />
+            <span>(06) 53 87 05 80</span>
           </div>
         </footer>
         <style jsx>{`
