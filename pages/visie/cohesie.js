@@ -22,7 +22,7 @@ export default class cohesie extends Component {
         <PolicyHero title={title} subtitle={subtitle} />
         <PolicyTemplate>
           <p>
-            Hoe sterk onze samenleving is heeft met alles te maken. Het
+            Hoe veel vertrouwen er in onze samenleving aanwezig is heeft met alles te maken. Het
             be&iuml;nvloedt onze economische groei, onze tripjes naar de
             supermarkt, het aantal uren dat we vrijwilligerswerk doen, het
             draagvlak voor belastingen en nog veel meer. De beste graadmeter om
