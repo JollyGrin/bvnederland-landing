@@ -21,8 +21,14 @@ export default class Hero extends Component {
               </Link>
               <br /> <br />
               <h2 className="emp bvPurp ashare">Beweeg jij mee voorwaarts?</h2>
-              <Link href="/join">
-                <a className="button is-primary is-large">Doe mee</a>
+              <Link href="/doemee">
+                <a
+                  className={`button is-primary is-large ${
+                    tab === 'join' ? 'hide' : null
+                  }`}
+                >
+                  Doe mee
+                </a>
               </Link>
             </div>
           </div>
@@ -36,7 +42,7 @@ export default class Hero extends Component {
                     </Link>
                   </li>
                   <li className={tab === 'join' ? 'is-active' : null}>
-                    <Link href="/join" scroll>
+                    <Link href="/doemee" scroll>
                       <a>Word ook een aandeelhouder</a>
                     </Link>
                   </li>
@@ -53,6 +59,10 @@ export default class Hero extends Component {
         <style jsx>{`
           .container img {
             width: 310px;
+          }
+
+          .hide {
+            display: none;
           }
 
           .emp {

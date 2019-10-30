@@ -192,7 +192,7 @@ export default class manifest extends Component {
         <section className="section">
           <div className="columns has-text-centered">
             <div className="column is-6 is-offset-3">
-              <Link href="/join">
+              <Link href="/doemee">
                 <a className="button is-large is-fullwidth">Doe Mee</a>
               </Link>
             </div>

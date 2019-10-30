@@ -51,13 +51,14 @@ export default class HomeBody extends Component {
                   </div>
                 </div>
                 <br />
+
                 <div className="container has-text-centered">
                   <Link href="/manifest">
                     <a className="button is-primary is-large manifestButton">
                       Ontdek het Manifest
                     </a>
                   </Link>
-                  <Link href="/join">
+                  <Link href="/doemee">
                     <a className="button is-primary is-large manifestButton">
                       Doe Mee
                     </a>
@@ -77,6 +78,16 @@ export default class HomeBody extends Component {
               </div>
             </div>
           </section>
+          <section className="section">
+            <div className="columns">
+              <div className="column tOrange">
+                <p>test</p>
+              </div>
+              <div className="column tBlue">
+                <p>test</p>
+              </div>
+            </div>
+          </section>
         </div>
 
         <style jsx>{`
@@ -87,6 +98,14 @@ export default class HomeBody extends Component {
           .button {
             margin-right: 20px;
             margin-top: 20px;
+          }
+
+          .tOrange {
+            background-color: orange;
+          }
+
+          .tBlue {
+            background-color: blue;
           }
 
           .fas,

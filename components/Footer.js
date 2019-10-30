@@ -30,8 +30,8 @@ export default class Footer extends Component {
                 </div>
                 <div className="level-item has-text-centered">
                   <div>
-                    <a href="https://gitter.im/wijzijnbv/community">
-                      <i className="fab fa-gitter"></i>
+                    <a href="https://chat.whatsapp.com/E5ZxN6H5LCTIx6tt7Zl7NW">
+                      <i className="fab fa-whatsapp"></i>
                     </a>
                     <p className="help">Chatroom</p>
                   </div>

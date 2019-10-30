@@ -172,7 +172,7 @@ export default class JoinBody extends Component {
             <div className="columns has-text-centered">
               <div className="column is-6 is-offset-3">
                 <a
-                  href="https://gitter.im/wijzijnbv/community"
+                  href="https://chat.whatsapp.com/E5ZxN6H5LCTIx6tt7Zl7NW"
                   className="button is-primary is-large"
                 >
                   Praat Mee

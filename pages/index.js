@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TheHead from '../components/TheHead';
-import TheNav from '../components/TheNav';
+import HomeNav from '../components/HomeNav';
 import Hero from '../components/Hero';
 import HomeBody from '../components/HomeBody';
 import Footer from '../components/Footer';
@@ -10,7 +10,7 @@ export default class index extends Component {
     return (
       <div className="bvPage">
         <TheHead />
-        {/* <TheNav /> */}
+        <HomeNav />
         <Hero heroTab={'home'} />
         <HomeBody />
         <Footer />

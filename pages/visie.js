@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TheHead from '../components/TheHead';
-import TheNav from '../components/TheNav';
+import HomeNav from '../components/HomeNav';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import PlatformBody from '../components/PlatformBody';
@@ -10,7 +10,7 @@ export default class visie extends Component {
     return (
       <div className="bvPage">
         <TheHead />
-        {/* <TheNav /> */}
+        <HomeNav />
         <Hero heroTab={'visie'} />
         <PlatformBody />
         <Footer />
