@@ -39,13 +39,13 @@ export default class DividendBody extends Component {
                 </p>
 
                 <p>
-                  <span>Toen Koen onderzoek deed voor zijn boek (</span>
+                  <span>Toen wij in de cijfers doken  </span>
                   <em>
-                    <span>het vrijheidsdividend in Nederland</span>
+                    <span>schrokken wij hier van. </span>
                   </em>
                   <span>
-                    ) schrok hij van de cijfers die hij tegenkwam. Onze
-                    levensverwachting is voor het eerst in jaren gedaald,
+                    Voor veel mensen in ons land is de 
+                    levensverwachting  voor het eerst in jaren gedaald,
                     mentale depressies zijn gestegen en ook ons vertrouwen in
                     elkaar en in onze instituties zijn gedaald, met grote
                     verschillen tussen de mensen die wel profiteren van de
