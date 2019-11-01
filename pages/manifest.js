@@ -179,7 +179,7 @@ export default class manifest extends Component {
                     <span>Data</span> als een recht
                   </li>
                   <li>
-                    <span>Nederlandse identiteit</span> om trots op te zijn
+               
                   </li>
                   <li>
                     Voorwaarts <span>klimaatbeleid</span>
