@@ -51,43 +51,41 @@ export default class HomeBody extends Component {
                   </div>
                 </div>
                 <br />
-
-                <div className="container has-text-centered">
-                  <Link href="/manifest">
-                    <a className="button is-primary is-large manifestButton">
-                      Ontdek het Manifest
-                    </a>
-                  </Link>
-                  <Link href="/doemee">
-                    <a className="button is-primary is-large manifestButton">
-                      Doe Mee
-                    </a>
-                  </Link>
-                  <Link href="/visie">
-                    <a className="button is-primary is-large manifestButton">
-                      Ontdek onze Visie
-                    </a>
-                  </Link>
-                  <Link href="/about">
-                    <a className="button is-primary is-large">Over Ons</a>
-                  </Link>
-                  {/* <p>
-                    Dit is het begin van een nieuwe politiek, gericht op oplossingen voor de 21-eeuwse economie en samenleving. 
-                  </p> */}
-                </div>
               </div>
             </div>
           </section>
-          <section className="section">
-            <div className="columns">
-              <div className="column tOrange">
-                <p>test</p>
-              </div>
-              <div className="column tBlue">
-                <p>test</p>
-              </div>
+          {/* <section className="section"> */}
+          <div className="columns has-text-centered is-vcentered">
+            <div className="column box1">
+              <Link href="/manifest">
+                <a>
+                  <h1 className="title emp emp1">Het Manifest</h1>
+                </a>
+              </Link>
             </div>
-          </section>
+            <div className="column box2">
+              <Link href="/doemee">
+                <a>
+                  <h1 className="title emp emp1">Doe Mee</h1>
+                </a>
+              </Link>
+            </div>
+            <div className="column box3">
+              <Link href="/visie">
+                <a>
+                  <h1 className="title emp emp1">Onze Visie</h1>
+                </a>
+              </Link>
+            </div>
+            <div className="column box4">
+              <Link href="/about">
+                <a>
+                  <h1 className="title emp emp1">Over Ons</h1>
+                </a>
+              </Link>
+            </div>
+          </div>
+          {/* </section> */}
         </div>
 
         <style jsx>{`
@@ -95,17 +93,46 @@ export default class HomeBody extends Component {
             background: white;
           }
 
+          .emp1 {
+            color: white !important;
+          }
+          .emp1:hover {
+            color: orange !important;
+          }
+
           .button {
             margin-right: 20px;
             margin-top: 20px;
           }
 
-          .tOrange {
-            background-color: orange;
+          .box1 {
+            background-image: url(/static/media/rally1.png);
           }
 
-          .tBlue {
-            background-color: blue;
+          .box2 {
+            background-image: url(/static/media/rally2.png);
+          }
+
+          .box3 {
+            background-image: url(/static/media/rally5.png);
+          }
+          .box4 {
+            background-image: url(/static/media/rally4.png);
+          }
+
+          .box1,
+          .box2,
+          .box3,
+          .box4 {
+            min-height: 250px;
+            background-position: center;
+            background-size: cover;
+            background-color: rgba(200, 100, 0, 0.5); // Tint color
+            background-blend-mode: multiply;
+            display: flex;
+            justify-content: center; /* align horizontal */
+            align-items: center; /* align vertical */
+            color: white;
           }
 
           .fas,

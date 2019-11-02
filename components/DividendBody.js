@@ -39,34 +39,31 @@ export default class DividendBody extends Component {
                 </p>
 
                 <p>
-                  <span>Toen wij in de cijfers doken  </span>
-                  <em>
-                    <span>schrokken wij hier van. </span>
-                  </em>
                   <span>
-                    Voor veel mensen in ons land is de 
-                    levensverwachting  voor het eerst in jaren gedaald,
-                    mentale depressies zijn gestegen en ook ons vertrouwen in
-                    elkaar en in onze instituties zijn gedaald, met grote
-                    verschillen tussen de mensen die wel profiteren van de
-                    21-eeuwse economie en de mensen die niks van deze
-                    technologische welvaart voelen. Daarbij dreigen de&nbsp;
-                    komende 10 tot 20 jaar honderdduizenden tot miljoenen banen
-                    uit Nederland te verdwijnen door automatisering en
-                    technologie. Dit zal niet in een keer gebeuren, maar een
-                    langzaam proces zijn die we niet in de gaten hebben, terwijl
-                    het ondertussen steeds meer mensen achterlaat in onze
-                    economie. Echter moeten we daar nu een oplossing voor vinden
-                    willen we ervoor zorgen dat we in een Nederland blijven
-                    wonen waarin iedereen perspectief heeft op een waardig
-                    leven. Deze banen verdwijnen namelijk ook vaker&nbsp; buiten
-                    de Randstad, met een meer sociaal en economisch verdeeld
-                    land als gevolg. Dit kunnen we niet accepteren en hiervoor
-                    wil Beweging Voorwaarts het vrijheidsdividend van 1.000 euro
-                    per maand introduceren, als een vloer waarmee we het
-                    benodigde huis van maatregelen voor de toekomst samen gaan
-                    bouwen. Via deze link kan jij je verhaal delen waarom jij
-                    een vrijheidsdividend in Nederland wil.&nbsp;
+                    Toen wij in de cijfers doken schrokken wij hier van. Voor
+                    veel mensen in ons land is de levensverwachting voor het
+                    eerst in jaren gedaald, mentale depressies zijn gestegen en
+                    ook ons vertrouwen in elkaar en in onze instituties zijn
+                    gedaald, met grote verschillen tussen de mensen die wel
+                    profiteren van de 21-eeuwse economie en de mensen die niks
+                    van deze technologische welvaart voelen. Daarbij dreigen
+                    de&nbsp; komende 10 tot 20 jaar honderdduizenden tot
+                    miljoenen banen uit Nederland te verdwijnen door
+                    automatisering en technologie. Dit zal niet in een keer
+                    gebeuren, maar een langzaam proces zijn die we niet in de
+                    gaten hebben, terwijl het ondertussen steeds meer mensen
+                    achterlaat in onze economie. Echter moeten we daar nu een
+                    oplossing voor vinden willen we ervoor zorgen dat we in een
+                    Nederland blijven wonen waarin iedereen perspectief heeft op
+                    een waardig leven. Deze banen verdwijnen namelijk ook
+                    vaker&nbsp; buiten de Randstad, met een meer sociaal en
+                    economisch verdeeld land als gevolg. Dit kunnen we niet
+                    accepteren en hiervoor wil Beweging Voorwaarts het
+                    vrijheidsdividend van 1.000 euro per maand introduceren, als
+                    een vloer waarmee we het benodigde huis van maatregelen voor
+                    de toekomst samen gaan bouwen. Via deze link kan jij je
+                    verhaal delen waarom jij een vrijheidsdividend in Nederland
+                    wil.&nbsp;
                   </span>
                 </p>
                 <p>&nbsp;</p>

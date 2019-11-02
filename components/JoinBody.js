@@ -101,12 +101,12 @@ export default class JoinBody extends Component {
                   Nu: {this.state.count} Volgers
                 </span>
                 <span className="help is-pulled-right">
-                  Goal: 500 Volgers op Twitter{' '}
+                  Goal: 200 Volgers op Twitter{' '}
                 </span>
                 <progress
                   className="progress is-large"
                   value={this.state.count}
-                  max="500"
+                  max="200"
                 >
                   60%
                 </progress>
@@ -116,9 +116,10 @@ export default class JoinBody extends Component {
             <div className="columns goalBox">
               <div className="column is-2 is-offset-3 ">
                 <div className="box currentGoal">
-                  <h2 className="subtitle">Voor 20 november!</h2>
+                  <h2 className="subtitle">Voor 30 november!</h2>
                   <p>
-                    500 volgers op Twitter en Instagram!
+                    200 volgers op Twitter!
+                    <br />
                     <br />
                     <br />
                   </p>
@@ -130,25 +131,45 @@ export default class JoinBody extends Component {
                       <i className="fab fa-twitter"></i>
                     </a>
 
-                    <a
+                    {/* <a
                       href="https://instagram.com/wijzijnbv"
                       className="button is-primary is-large"
                     >
                       <i className="fab fa-instagram"></i>
+                    </a> */}
+                  </center>
+                </div>
+              </div>
+              <div className="column is-2">
+                <div className="box">
+                  <h2 className="subtitle">Voor 30 november!</h2>
+                  <p>500 hashtag-mentions van #wijzijnbv of #mijndividend!</p>
+                  <br />
+                  <center>
+                    <a
+                      href="https://twitter.com/intent/tweet?button_hashtag=wijzijnbv&ref_src=twsrc%5Etfw"
+                      className="button is-primary is-large marginfix"
+                    >
+                      #WijZijnBV
                     </a>
                   </center>
                 </div>
               </div>
               <div className="column is-2">
                 <div className="box">
-                  <h2 className="subtitle">Voor 25 november!</h2>
-                  <p>500 hashtag-mentions van #wijzijnbv of #mijndividend!</p>
-                </div>
-              </div>
-              <div className="column is-2">
-                <div className="box">
-                  <h2 className="subtitle">Voor 31 november!</h2>
-                  <p>200 mensen die met ons denken in sub-forums! </p>
+                  <h2 className="subtitle">Voor 10 december!</h2>
+                  <p>
+                    50 kernteam mensen die met ons meedenken in de whatsapp!{' '}
+                  </p>
+                  <br />
+                  <center>
+                    <a
+                      href="https://chat.whatsapp.com/E5ZxN6H5LCTIx6tt7Zl7NW"
+                      className="button is-primary is-large marginfix"
+                    >
+                      <i className="fab fa-whatsapp"></i>
+                    </a>
+                  </center>
                 </div>
               </div>
             </div>

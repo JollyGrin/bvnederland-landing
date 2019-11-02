@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Link from 'next/link';
 
 export default class HomeNav extends Component {
   constructor(props) {
@@ -42,13 +43,23 @@ export default class HomeNav extends Component {
             }`}
           >
             <div className="navbar-end">
-              <a className="navbar-item">Join Us!</a>
+              <Link href="/doemee">
+                <a className="navbar-item">Doe Mee</a>
+              </Link>
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link">What's BV Nederland?</a>
+                <Link href="/about">
+                  <a className="navbar-link">Wat is BV Nederland?</a>
+                </Link>
                 <div className="navbar-dropdown">
-                  <a className="navbar-item">The Manifest</a>
-                  <a className="navbar-item">Policies</a>
-                  <a className="navbar-item">About Us</a>
+                  <Link href="/manifest">
+                    <a className="navbar-item">Het manifest</a>
+                  </Link>
+                  <Link href="/visie">
+                    <a className="navbar-item">Onze visie</a>
+                  </Link>
+                  {/* <Link href="#">
+                    <a className="navbar-item">Waarom de tulp?</a>
+                  </Link> */}
                 </div>
               </div>
             </div>
