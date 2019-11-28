@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { getTwitterFollowers } from '../lib/db';
+import DiscussionBox from './discourse_discussion';
 
 export default class JoinBody extends Component {
   constructor(props) {
@@ -179,17 +180,17 @@ export default class JoinBody extends Component {
               <div className="column is-8 is-offset-2">
                 <h3 className="title emp">Je hebt geen toestemming nodig</h3>
                 <h4 className="subtitle">
-                  De visie en tactieken van de campagne zij transparant.
+                  De visie en tactieken van de campagne zijn transparant.
                   <br />
-                  Hier zijn de dingen die jij kan doen om onze ideeën te
-                  verspreiden!
+            Je kunt zelf meepraten om de visie van de partij te vormen!
                   <br />
                   <strong>
-                    Kom in onze sub-forums om dit samen met ons te doen!
+            Kijk wat de laatste posts op ons forum zijn:
                   </strong>
                 </h4>
               </div>
             </div>
+            <DiscussionBox />
             <div className="columns has-text-centered">
               <div className="column is-6 is-offset-3">
                 <a

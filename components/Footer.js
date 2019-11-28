@@ -38,6 +38,14 @@ export default class Footer extends Component {
                 </div>
                 <div className="level-item has-text-centered">
                   <div>
+                    <a href="https://forum.bvnederland.nu">
+                      <i className="fab fa-discourse"></i>
+                    </a>
+                    <p className="help">Forum</p>
+                  </div>
+                </div>
+                <div className="level-item has-text-centered">
+                  <div>
                     <a href="mailto:bvnederland@outlook.com">
                       <i className="fas fa-paper-plane"></i>
                     </a>
