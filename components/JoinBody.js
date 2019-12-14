@@ -1,30 +1,30 @@
-import React, { Component, Fragment } from 'react';
-import { getTwitterFollowers } from '../lib/db';
-import DiscussionBox from './discourse_discussion';
+import React, { Component, Fragment } from 'react'
+import { getTwitterFollowers } from '../lib/db'
+import DiscussionBox from './discourse_discussion'
 
 export default class JoinBody extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
     this.state = {
       count: ''
-    };
+    }
   }
 
-  componentDidMount() {
+  componentDidMount () {
     getTwitterFollowers().then(obj => {
-      this.setState({ count: obj });
-    });
+      this.setState({ count: obj })
+    })
   }
 
-  render() {
+  render () {
     return (
       <Fragment>
-        <div className="home-body">
-          <section className="section">
-            <div className="columns has-text-centered">
-              <div className="column is-6 is-offset-3">
-                <h3 className="title emp">Kom bij de beweging</h3>
-                <h4 className="subtitle">
+        <div className='home-body'>
+          <section className='section'>
+            <div className='columns has-text-centered'>
+              <div className='column is-6 is-offset-3'>
+                <h3 className='title emp'>Kom bij de beweging</h3>
+                <h4 className='subtitle'>
                   Dit is meer dan een politieke partij, het is een visie.
                   <br />
                   Wij gaan dit een beetje anders doen.
@@ -32,11 +32,11 @@ export default class JoinBody extends Component {
               </div>
             </div>
             <br /> <br />
-            <div className="columns">
-              <div className="column is-4 is-offset-2">
+            <div className='columns'>
+              <div className='column is-4 is-offset-2'>
                 <br />
-                <h2 className="title">Doe Mee</h2>
-                <h3 className="subtitle">
+                <h2 className='title'>Doe Mee</h2>
+                <h3 className='subtitle'>
                   Onze beweging is een doe-mee-cratie. Vraag geen toestemming.
                   Jij bent de beweging. We werken samen aan dezelfde visie.
                 </h3>
@@ -50,17 +50,17 @@ export default class JoinBody extends Component {
                   de Tweede Kamerverkieingen in 2021. Stap voor stap.{' '}
                 </p>
               </div>
-              <div className="column is-4">
-                <div className="box">
-                  <div className="card-content">
-                    <h2 className="title">Onze Nieuwsbrief</h2>
+              <div className='column is-4'>
+                <div className='box'>
+                  <div className='card-content'>
+                    <h2 className='title'>Onze Nieuwsbrief</h2>
                     <p>
                       Abonneer je op de nieuwsbrief met wekelijkse updates en
                       tips!
                     </p>
                   </div>
-                  <div className="card-footer-item">
-                    <div className="field has-addons">
+                  <div className='card-footer-item'>
+                    <div className='field has-addons'>
                       {/* <div className="control is-medium">
                       <input
                         className="input script"
@@ -68,13 +68,13 @@ export default class JoinBody extends Component {
                         placeholder="Meld je aan"
                       />
                     </div> */}
-                      <div className="control">
+                      <div className='control'>
                         <iframe
-                          width="480"
-                          height="400"
-                          src="https://wijzijnbv.substack.com/embed"
-                          frameBorder="0"
-                          scrolling="no"
+                          width='480'
+                          height='400'
+                          src='https://wijzijnbv.substack.com/embed'
+                          frameBorder='0'
+                          scrolling='no'
                         ></iframe>
                       </div>
                     </div>
@@ -83,42 +83,45 @@ export default class JoinBody extends Component {
               </div>
             </div>
             <br /> <br />
-            <div className="columns has-text-centered">
-              <div className="column is-6 is-offset-3">
-                <h3 className="title emp">Ons doel</h3>
-                <h4 className="subtitle">
+            <div className='columns '>
+              <div className='column is-6 is-offset-3'>
+                <h3 className='title emp'>Ons doel</h3>
+                <h4 className='subtitle'>
                   We streven naar <strong>250.000 stemmen</strong> in de Tweede
                   Kamerverkiezingen van 2021.
                   <br />
                   De helft van alle Nederlanders is voor een vrijheidsdividend
-                  van 1.000 euro per maand. <br />
+                  van 1.000 euro per maand. <br /> Help ons stap voor stap, doel
+                  voor doel, daar te komen! <br />
+                  <br />
                   <strong>
-                    Help ons stap voor stap, doel voor doel, daar te komen!
+                    En dit alles begint allemaal op het forum, dus kom mee
+                    praten! <br />
+                    We willen met jou denken!{' '}
                   </strong>
                 </h4>
 
                 <br />
-                <span className="help is-pulled-left">
+                <span className='help is-pulled-left'>
                   Nu: {this.state.count} Volgers
                 </span>
-                <span className="help is-pulled-right">
+                <span className='help is-pulled-right'>
                   Goal: 200 Volgers op Twitter{' '}
                 </span>
                 <progress
-                  className="progress is-large"
+                  className='progress is-large'
                   value={this.state.count}
-                  max="200"
+                  max='200'
                 >
                   60%
                 </progress>
                 <br />
               </div>
             </div>
-            <div className="columns goalBox">
-              <div className="column is-2 is-offset-3 ">
-                <div className="box currentGoal">
-                  <h2 className="subtitle">Voor 30 november!</h2>
-                  <p>
+            <div className='columns goalBox'>
+              <div className='column is-2 is-offset-3 '>
+                <div className='box currentGoal'>
+                  <p className='subtitle'>
                     200 volgers op Twitter!
                     <br />
                     <br />
@@ -126,10 +129,10 @@ export default class JoinBody extends Component {
                   </p>
                   <center>
                     <a
-                      href="https://twitter.com/wijzijnbv"
-                      className="button is-primary is-large marginfix"
+                      href='https://twitter.com/wijzijnbv'
+                      className='button is-primary is-large marginfix'
                     >
-                      <i className="fab fa-twitter"></i>
+                      <i className='fab fa-twitter'></i>
                     </a>
 
                     {/* <a
@@ -141,34 +144,34 @@ export default class JoinBody extends Component {
                   </center>
                 </div>
               </div>
-              <div className="column is-2">
-                <div className="box">
-                  <h2 className="subtitle">Voor 30 november!</h2>
-                  <p>500 hashtag-mentions van #wijzijnbv of #mijndividend!</p>
+              <div className='column is-2'>
+                <div className='box'>
+                  <p className='subtitle'>
+                    100 hashtag-mentions van #wijzijnbv of #mijndividend!
+                  </p>
                   <br />
                   <center>
                     <a
-                      href="https://twitter.com/intent/tweet?button_hashtag=wijzijnbv&ref_src=twsrc%5Etfw"
-                      className="button is-primary is-large marginfix"
+                      href='https://twitter.com/intent/tweet?button_hashtag=wijzijnbv&ref_src=twsrc%5Etfw'
+                      className='button is-primary is-large marginfix'
                     >
                       #WijZijnBV
                     </a>
                   </center>
                 </div>
               </div>
-              <div className="column is-2">
-                <div className="box">
-                  <h2 className="subtitle">Voor 10 december!</h2>
-                  <p>
-                    50 kernteam mensen die met ons meedenken in de whatsapp!{' '}
+              <div className='column is-2'>
+                <div className='box'>
+                  <p className='subtitle'>
+                    50 kernteam mensen die met ons meedenken in de forum!{' '}
                   </p>
                   <br />
                   <center>
                     <a
-                      href="https://chat.whatsapp.com/E5ZxN6H5LCTIx6tt7Zl7NW"
-                      className="button is-primary is-large marginfix"
+                      href='https://forum.bvnederland.nu'
+                      className='button is-primary is-large marginfix'
                     >
-                      <i className="fab fa-whatsapp"></i>
+                      <i className='fab fa-discourse'></i>
                     </a>
                   </center>
                 </div>
@@ -176,26 +179,24 @@ export default class JoinBody extends Component {
             </div>
             <br />
             <br />
-            <div className="columns has-text-centered">
-              <div className="column is-8 is-offset-2">
-                <h3 className="title emp">Je hebt geen toestemming nodig</h3>
-                <h4 className="subtitle">
+            <div className='columns has-text-centered'>
+              <div className='column is-8 is-offset-2'>
+                <h3 className='title emp'>Je hebt geen toestemming nodig</h3>
+                <h4 className='subtitle'>
                   De visie en tactieken van de campagne zijn transparant.
                   <br />
-            Je kunt zelf meepraten om de visie van de partij te vormen!
+                  Je kunt zelf meepraten om de visie van de partij te vormen!
                   <br />
-                  <strong>
-            Kijk wat de laatste posts op ons forum zijn:
-                  </strong>
+                  <strong>Kijk wat de laatste posts op ons forum zijn:</strong>
                 </h4>
               </div>
             </div>
             <DiscussionBox />
-            <div className="columns has-text-centered">
-              <div className="column is-6 is-offset-3">
+            <div className='columns has-text-centered'>
+              <div className='column is-6 is-offset-3'>
                 <a
-                  href="https://forum.bvnederland.nu"
-                  className="button is-primary is-large"
+                  href='https://forum.bvnederland.nu'
+                  className='button is-primary is-large'
                 >
                   Praat Mee
                 </a>
@@ -237,6 +238,6 @@ export default class JoinBody extends Component {
           // }
         `}</style>
       </Fragment>
-    );
+    )
   }
 }

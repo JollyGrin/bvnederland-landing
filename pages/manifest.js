@@ -179,9 +179,6 @@ export default class manifest extends Component {
                     <span>Data</span> als een recht
                   </li>
                   <li>
-               
-                  </li>
-                  <li>
                     Voorwaarts <span>klimaatbeleid</span>
                   </li>
                 </ul>

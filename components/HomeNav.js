@@ -57,6 +57,9 @@ export default class HomeNav extends Component {
                   <Link href="/visie">
                     <a className="navbar-item">Onze visie</a>
                   </Link>
+                  <Link href="static/media/bvnederland.pdf">
+                    <a className="navbar-item">PDF</a>
+                  </Link>
                   {/* <Link href="#">
                     <a className="navbar-item">Waarom de tulp?</a>
                   </Link> */}
