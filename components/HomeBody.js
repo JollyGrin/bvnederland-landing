@@ -27,14 +27,22 @@ export default class HomeBody extends Component {
                 <div className="columns bigThree has-text-centered">
                   <div className="column">
                     <i className="fas fa-euro-sign"></i>
-                    <h2 className="title">Vrijheidsdividend</h2>
+                    <Link href="/visie/dividend">
+                        <h2 className="titleLink">
+                            Vrijheidsdividend
+                        </h2>
+                    </Link>
                     <p>
                       1.000 euro per maand voor elke Nederlander boven de 18.
                     </p>
                   </div>
                   <div className="column">
                     <i className="far fa-chart-bar"></i>
-                    <h2 className="title">Nieuw voorwaarts bbp</h2>
+                    <Link href="/visie/bbp">
+                        <h2 className="titleLink">
+                            Nieuw voorwaarts bbp
+                        </h2>
+                    </Link>
                     <p>
                       Een bbp waarin ook de mens en de gezondheid van onze
                       samenleving wordt meegenomen.
@@ -42,7 +50,11 @@ export default class HomeBody extends Component {
                   </div>
                   <div className="column">
                     <i className="fas fa-fist-raised"></i>
-                    <h2 className="title">Democratie-aandelen</h2>
+                    <Link href="/visie/democratie">
+                      <h2 className="titleLink">
+                        Democratie-aandelen
+                      </h2>
+                    </Link>
                     <p>
                       Als aandeelhouders van onze democratie krijgt iedere
                       Nederlander een aandeel van 25 euro die hij of zij aan een
@@ -140,6 +152,17 @@ export default class HomeBody extends Component {
             font-size: 3.5rem;
             opacity: 0.3;
             padding: 1rem;
+          }
+
+          .titleLink {
+              color: orange;
+              font-size: 2rem;
+              font-weight: 600;
+              line-height: 1.125;
+              cursor:pointer;
+          }
+          .titleLink:hover {
+              color: #dd8300;
           }
         `}</style>
       </Fragment>

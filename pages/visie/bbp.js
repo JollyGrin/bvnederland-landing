@@ -85,11 +85,6 @@ export default class bbp extends Component {
             <li>Kwaliteit van infrastructuur</li>
             <li>Medicijngebruik en gerelateerde doden</li>
           </ul>
-          <p>
-            Der <a href="https://geekprank.com/">Online Windows XP Simulator</a>{' '}
-            l&auml;uft in einem Webbrowser und seine Bedienung imitiert das
-            Betriebssystem. Du kannst es benutzen, um jemanden zu streicheln.
-          </p>
         </PolicyTemplate>
         <Footer />
 

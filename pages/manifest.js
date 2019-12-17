@@ -147,39 +147,56 @@ export default class manifest extends Component {
               <div className="content toptext">
                 <ul>
                   <li>
-                    <span>Vrijheidsdividend</span> van 1.000 euro per maand voor
-                    elke burger.&nbsp;
+                    <Link href="/visie/dividend">
+                      <span> Vrijheidsdividend </span>
+                    </Link> van 1.000 euro per maand voor elke burger.&nbsp;
                   </li>
                   <li>
-                    Menselijk <span>bbp</span> invoeren waarin ruime welvaarts
-                    factoren zoals levensverwachting en mentale gezondheid in
-                    meegenomen worden.&nbsp;
+                    Menselijk <Link href="/visie/bbp"><span> bbp </span></Link>
+                    invoeren waarin ruime welvaarts factoren zoals
+                    levensverwachting en mentale gezondheid in meegenomen
+                    worden. &nbsp;
                   </li>
                   <li>
                     Elke Nederlander krijgt 25 euro aan{' '}
-                    <span>democratie-aandelen</span> die hij of zij aan een
-                    politieke partij, Kamerlid of andere politieke organisaties
-                    kan schenken. Hierdoor nemen we Den Haag terug van
-                    lobbyisten en kan politiek voor de mensen gaan werken.&nbsp;
+                    <Link href="/visie/democratie">
+                      <span> democratie-aandelen </span>
+                    </Link> die hij of zij aan een politieke partij, Kamerlid
+                    of andere politieke organisaties kan schenken. Hierdoor
+                    nemen we Den Haag terug van lobbyisten en kan politiek voor
+                    de mensen gaan werken.&nbsp;
                   </li>
                   <li>
-                    Iedereen gratis <span>basiszorg</span> in Nederland
+                    Iedereen gratis
+                    <Link href="/visie/zorg"><span> basiszorg </span></Link>
+                    in Nederland
                   </li>
                   <li>
-                    Goede <span>huisvesting</span> voor elke Nederlander
+                    Goede
+                    <Link href="/visie/huis"><span> huisvesting </span></Link>
+                    voor elke Nederlander
                   </li>
                   <li>
-                    Economie en politiek waarin de <span>mens eerst</span>{' '}
+                    Economie en politiek waarin de
+                    <Link href="/visie/peoplepolitek">
+                      <span> mens eerst </span>
+                    </Link>{' '}
                     staat.&nbsp;
                   </li>
                   <li>
-                    <span>Onderwijs</span> waarin weer ge&iuml;nvesteerd wordt
+                    <Link href="/visie/onderwijs">
+                    <span> Onderwijs </span>
+                    </Link> waarin weer ge&iuml;nvesteerd wordt
                   </li>
                   <li>
-                    <span>Data</span> als een recht
+                    <Link href="/visie/data">
+                      <span> Data </span>
+                    </Link> als een recht
                   </li>
                   <li>
-                    Voorwaarts <span>klimaatbeleid</span>
+                    Voorwaarts
+                    <Link href="/visie/klimaat"><span> klimaatbeleid </span>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -208,6 +225,7 @@ export default class manifest extends Component {
 
           .toptext span {
             color: #ef8202;
+            cursor:pointer;
           }
 
           .toptext p,
