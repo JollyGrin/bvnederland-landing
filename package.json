@@ -6,7 +6,7 @@
     "dev": "next",
     "clean": "node scripts/clean.js",
     "compilevision": "node scripts/build.js",
-    "build": "next build",
+    "build": "node scripts/clean.js; node scripts/build.js; next build",
     "start": "next start",
     "css:build": "node-sass --omit-source-map-url assets/sass/styles.scss static/css/styles.css",
     "css:watch": "npm run css:build -- --watch"
