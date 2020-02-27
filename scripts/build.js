@@ -1,6 +1,7 @@
 /*
  * Compiles markdown versions of the website to pages in pages/visie.
  */
+console.log("starting build");
 const fs = require('fs')
 const path = require('path')
 // node.js, "classic" way:
@@ -91,8 +92,8 @@ function run () {
 
 try {
   run()
-  console.log('success')
+  console.log('build success')
 } catch (e) {
   console.error(e)
-  console.error('failed with error')
+  console.error('build failed with error')
 }
