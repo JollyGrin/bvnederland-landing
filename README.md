@@ -1,1 +1,2 @@
-# Kom hier discussiëren: [forum](https://forum.bvnederland.nl)
+# Website voor de partij [Beweging Voorwaarts](https://bvnederland.nu)
+# Kom hier discussiëren: [forum](https://forum.bvnederland.nu)
