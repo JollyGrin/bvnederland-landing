@@ -1,7 +1,22 @@
 /*
- * Compiles markdown versions of the website to pages in pages/visie.
+ * Parses the /punten/ folder to create a tree of information on where
+ * each piece of markdown should be displayed. The first directory is
+ * the category name. The second directory is the article directory.
+ * These are sorted by name.
+ * Withing the article directory you can add a meta.json file, and a
+ * text.md file. text.md begin the content to be printed.
+ * meta.json can have the following properties:
+ * - title
+ * - subtitle
+ * This script then makes individual html files for each article, and
+ * places it in /pages/visie/..
+ * Also it compiles an index file /pages/visie.jsx
+ *
+ * Note: when the 'main' category changes, you should manually change
+ * index.js
+ * TODO: add images
  */
-console.log("starting build");
+console.log('starting build')
 const fs = require('fs')
 const path = require('path')
 // node.js, "classic" way:

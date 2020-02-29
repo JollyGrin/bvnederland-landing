@@ -1,5 +1,6 @@
-/* This file cleans out all compiled markdown files in visie and visie/* */
-console.log("cleaning old action points")
+/* This file deletes all compiled markdown files in /pages/visie and
+ * /pages/visie.jsx */
+console.log('cleaning old action points')
 const fs = require('fs')
 var points = fs.readdirSync('./pages/visie')
 
@@ -23,9 +24,9 @@ try {
     }
     console.log(page)
     fs.unlinkSync('./pages/' + page)
-    console.log("sucessful clean")
+    console.log('sucessful clean')
   }
 } catch (e) {
   console.log(e)
-    console.log("clean failed with error")
+  console.log('clean failed with error')
 }
