@@ -1,14 +1,13 @@
 Het vrijheidsdividend is een bedrag van 1.000 euro per maand, 12.000 euro per
-jaar wat elke Nederlander ouder dan 18 jaar op zijn rekening krijgt gestort. Dit
+jaar die elke Nederlander ouder dan 18 jaar op zijn rekening krijgt gestort. Dit
 is onafhankelijk van of iemand werkt of niet. Het is belastingvrij. Dit dividend
 zal een vloer vormen waarop alle Nederlanders kunnen staan tijdens de
-veranderingen die deze 21-eeuwse samenleving brengen. Ook zal dit Nederlanders
+veranderingen die deze 21-eeuwse samenleving zal brengen. Ook zal dit Nederlanders
 de mogelijkheid geven hun rekeningen of schulden af te betalen, langer door te
 studeren, creatief te zijn, bedrijven te starten, gezonder en sterker te worden
-en meer tijd om aan hun gezin of vrije tijd te besteden. Deze vloer zal mensen
+en meer tijd  aan hun gezin of vrije tijd te besteden. Deze vloer zal mensen
 tijdens de Vierde Industriële Revolutie waarin we nu zitten perspectief kunnen
-bieden op een betere toekomst, op een beter en voorwaarts Nederland. Wil je meer
-weten? Klik dan hier
+bieden op een betere toekomst, op een beter en voorwaarts Nederland. 
 
 __Waarom willen wij het vrijheidsdividend invoeren?__
 
@@ -20,15 +19,14 @@ gedaald, met grote verschillen tussen de mensen die wel profiteren van de
 voelen. Daarbij dreigen de komende 10 tot 20 jaar honderdduizenden tot miljoenen
 banen uit Nederland te verdwijnen door automatisering en technologie. Dit zal
 niet in een keer gebeuren, maar een langzaam proces zijn die we niet in de gaten
-hebben, terwijl het ondertussen steeds meer mensen achterlaat in onze economie.
+hebben, terwijl het ondertussen steeds meer Nederlanders achterlaat in onze economie.
 Echter moeten we daar nu een oplossing voor vinden willen we ervoor zorgen dat
 we in een Nederland blijven wonen waarin iedereen perspectief heeft op een
 waardig leven. Deze banen verdwijnen namelijk ook vaker buiten de Randstad, met
 een meer sociaal en economisch verdeeld land als gevolg. Dit kunnen we niet
 accepteren en hiervoor wil Beweging Voorwaarts het vrijheidsdividend van 1.000
 euro per maand introduceren, als een vloer waarmee we het benodigde huis van
-maatregelen voor de toekomst samen gaan bouwen. Via deze link kan jij je verhaal
-delen waarom jij een vrijheidsdividend in Nederland wil.
+maatregelen voor de toekomst samen gaan bouwen. 
 
 __Hoe betalen we voor het vrijheidsdividend?__
 
@@ -39,10 +37,10 @@ Nederlandse burger lijkt onmogelijk, zeker als we uitgaan van de manieren waarop
 we nu dingen financieren. Onmogelijk is het echter niet. Integendeel zelfs: Met
 alle kosten die we op bijvoorbeeld op zorg en criminaliteit besparen komen we al
 miljarden verder. Maar hoe willen wij het precies doen? Als we uitgaan van een
-hoge inschatting van 13 miljoen (10.5 miljoen volwassen Nederlanders +
+hoge inschatting van 13 miljoen mensen (10.5 miljoen volwassen Nederlanders +
 overstappende AOW’ers) die het vrijheidsdividend krijgen, komen we op een bedrag
-uit van 130 miljard. Daarnaast zullen we de kinderbijslag naar 300 euro per
-kwartaal verhogen, omdat mensen met veel kinderen anders niet genoeg hebben aan
+uit van 156 miljard. Daarnaast willen we dat de kinderbijslag naar 300 euro per
+kwartaal wordt verhoogt, omdat Nederlanders met veel kinderen anders niet genoeg hebben aan
 het vrijheidsdividend. Kinderen hebben is een teken van optimisme en moeten we
 stimuleren!
 
@@ -58,38 +56,36 @@ stimuleren!
    met het vrijheidsdividend er veel meer vooruit op gaan. Bij elkaar kom je dan
    op een bedrag van 25 miljard.
 
-2. We zullen dook de bureaucratie van alle heffingskortingen,
-   hypotheekrente-aftrek, met een opbrengst van 60 miljard in plaats van 70 ,
+2. We moeten ook de bureaucratie van alle heffingskortingen en 
+   hypotheekrente-aftrek opheffen, met een opbrengst van 60 miljard in plaats van 70,
    zodat er een goede overgangsperiode is.
 
 3. We besparen door de invoering van het vrijheidsdividend ook heel veel geld.
    Bijvoorbeeld op zorg (kost nu 100 miljard), criminaliteit (kost nu 13 miljard
    en veiligheid in onze wijken met als gevolg bijvoorbeeld minder vertrouwen
-   tussen mensen. Ook wordt veel criminaliteit niet meer gemeld), kosten
-   dakloosheid (recent hebben Utrecht, Amsterdam, Rotterdam en Den Haag de
-   noodklok geluid om de stijgende dakloosheid in Nederland en haar kosten.
-   Niemand zou dakloos moeten zijn. Zie ook ons stuk over daklozen). Hier
+   tussen mensen. Ook wordt veel criminaliteit niet meer gemeld), kosten van 
+   dakloosheid. Hier
    besparen we al snel minstens 20 miljard mee omdat onze mensen gezonder en
    sterker worden, meer perspectief zullen hebben en dus ook niet op de straat
    hoeven te leven.
 
-4. We voeren een belasting in op tech-bedrijven hun omzet in Nederland. Deze
+4. We pleiten voor  een belasting  op (tech)-bedrijven hun omzet in Nederland. Deze
    hebben jarenlang te weinig betaald, terwijl ze ondertussen wel veel van onze
    banen automatiseren en onze persoonlijke gegevens gebruiken als
    winstproducten. Onze belastingdienst zal het daarnaast veel minder druk
    hebben door de versimpeling van het belastingstelsel, dus genoeg tijd om deze
    belasting eindelijk eens door te voeren. Door hiernaast ook achter
    belastingontwijking aan te gaan (we hebben nog 47 miljard tegoed) willen we
-   met deze maatregelen minstens 20 miljard ophalen. Tijd voor een
+   met deze maatregelen minstens 10 miljard ophalen. Tijd voor een
    data-dividend!
 
 5. Het geld zal verder niet verdwijnen. Het geld zal in de economie rond blijven
    circuleren met als gevolg een groei van de economie en onze
-   belastinginkomsten. Mensen geven namelijk niet meer uit, maar ze zullen ook
+   belastinginkomsten. Mensen geven namelijk niet alleen meer uit, maar ze zullen ook
    bedrijfjes gaan starten en productiever worden op het werk door hun betere
    gezondheid. Hierdoor krijgen we een deel van het geïnvesteerde geld terug.
 
-6. Verder zullen we ons huidige belastingstelsel aanpassen aan de tijden waarin
+6. Verder moeten we ons huidige belastingstelsel aanpassen aan de tijden waarin
    we leven, namelijk tijden waarin arbeid veel te veel belast wordt ten
    opzichte van vermogen. Werken moet weer gaan lonen, dus zullen we de
    belastingschijven versimpelen naar maximaal twee vlaktaksen die lager zijn
@@ -98,7 +94,7 @@ stimuleren!
    in Nederlandse projecten. Met deze versimpeling die nader bekendgemaakt wordt
    willen we in het begin minstens 5 miljard ophalen.
 
-7. Tenslotte zullen we met een belasting op financiële transacties en een hogere
+7. Tenslotte moeten we met een belasting op financiële transacties en een hogere
    CO-2 belasting de rest van het gat opvullen. Hierdoor zorgen we ervoor dat er
    minder speculatief gehandeld wordt op de beurzen en zorgen we er
    tegelijkertijd voor dat mensen de baten van duurzaam klimaatbeleid in hun
@@ -124,7 +120,7 @@ mensen die de arbeidsmarkt tijdelijk of permanent verlaten opvangen.
 Daarnaast moeten we onze definitie van werk herdefiniëren, omdat onbetaald werk
 zoals mantelzorg, het zorgen voor onze kinderen en vrijwilligerswerk ook
 ontzettend veel toevoegen aan onze economie en maatschappij. Die worden nu niet
-erkend en met een vrijheidsdividend en een nieuw bbp willen wij dit wel doen.
+erkend en met een vrijheidsdividend en een nieuw bbp pleiten wij hiervoor. 
 
 Het is dus niet erg als we zien dat mensen minder betaald werk gaan doen omdat
 ze een vrijheidsdividend krijgen. Dit betekent enkel dat ze ander soort werk
@@ -140,7 +136,7 @@ Dit geldt dus voor iedereen. Rijk en arm.
 Ons huidige systeem gaat echter uit van het idee dat de meerderheid van de
 mensen niet wil werken en het kost miljarden om dit te doen. De vraag is dus of
 we aan het huidige systeem vast willen houden die elk individu wantrouwt, of dat
-we naar een systeem willen die gelooft in de individuele mens en deze minderheid
+we naar een systeem willen die gelooft in de Nederlander en deze minderheid
 voor lief neemt. In het huidige systeem zetten we namelijk meer mensen
 buitenspel door hun onbetaalde werk niet te erkennen, dan wanneer we met een
 vrijheidsdividend dit werk wel erkennen en daarnaast voor duizenden mensen in
@@ -290,7 +286,7 @@ De zin ‘De welvaart die we tot nu toe met z’n allen hebben gecreëerd’ is 
 essentieel.
 
 Want waarom verdienen mensen met meer geld dit vrijheidsdividend niet? Dit zijn
-de mensen die bijvoorbeeld met hun bedrijf voor werkgelegenheid zorgen, of door
+de Nederanders die bijvoorbeeld met hun bedrijf voor werkgelegenheid zorgen, of door
 hun werk op een andere manier heel veel waarde hebben gehad voor de
 maatschappij. We voegen allemaal op een andere manier toe aan de vooruitgang van
 Nederland. Stigmatiseren we hen dan niet als we hen geen geld geven ‘enkel’
