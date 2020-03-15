@@ -25,7 +25,7 @@ export default class DiscussionBox extends Component {
 
   render () {
     return (
-      <>
+      <Fragment>
         <div className='discussion-box-container'>
           <div className='discussion-box'>
             <d-topics-list discourse-url='https://forum.bvnederland.nu' per-page='5' />
@@ -44,7 +44,7 @@ export default class DiscussionBox extends Component {
                 }
           `}
         </style>
-      </>
+      </Fragment>
     )
   }
 }

@@ -43,20 +43,26 @@ export default class Hero extends Component {
                   </li>
                   <li className={tab === 'join' ? 'is-active' : null}>
                     <Link href='/doemee' scroll>
-                      <a>Word ook een aandeelhouder</a>
+                      <a>Doe Mee</a>
                     </Link>
                   </li>
-                  <li className={tab === 'visie' ? 'is-active' : null}>
+                  {/* <li className={tab === 'visie' ? 'is-active' : null}>
                     <Link href='/visie'>
                       <a>Onze visie</a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </nav>
           </div>
         </div>
         <style jsx>{`
+          ul a {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 1.5em;
+          }
+          
           .container img {
             width: 310px;
           }
