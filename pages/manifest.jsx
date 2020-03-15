@@ -112,7 +112,7 @@ export default class manifest extends Component {
                   betalen. Deze nieuw gecre&euml;erde technologische welvaart
                   van Nederland en haar bedrijven in de huidige 21ste eeuwse
                   economie is echter samen met ons gecre&euml;erd. Wij zijn
-                  aandeelhouders van de BV Nederland en haar democratische
+                  de aandeelhouders van  Nederland en haar democratische
                   instituties, innovatie, ondernemerschap, mooie steden en
                   prachtige landschappen.&nbsp;
                 </p>
@@ -136,9 +136,8 @@ export default class manifest extends Component {
                   wel andere beleidspunten bij. We kunnen niet door blijven
                   modderen als we deze uitdagingen echt aan willen pakken. Hier
                   moet een visie voor zijn. Ons doel is simpel: We willen met
-                  deze visie tijdens de Tweede Kamerverkiezingen in 2021 een
-                  overwinning gaan boeken die ons de mogelijkheid geeft van elke
-                  Nederlander aandeelhouder van dit land kunnen maken.&nbsp;
+                  deze visie zorgen dat tijdens Tweede Kamerverkiezingen in 2021 onze drie belangrijkste standpunten door politieke partijen overgenomen worden. 
+                 .&nbsp;
                 </p>
                 <p>Met deze punten willen wij dat doen.&nbsp;</p>
                 <p>
