@@ -49,7 +49,7 @@ al jaren zien dat de lonen dalen in ons land.
 
 Nu alleen nog een kapitalisme waarin de mensen op een staan. 
 
-Wij willen:
+Wij pleiten voor:
 
 - Belastingvoordelen geven aan bedrijven die werknemers __mede-eigenaar__ maken.
   Dit zorgt voor betere lonen voor onze mensen en meer innovatieve werknemers
